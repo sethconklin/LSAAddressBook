@@ -19,3 +19,12 @@ user log out
 
 Additional features:
 The user is able to edit a contact.
+
+To run the application locally from command line:
+check that python is installed with
+python --version
+check that django is installed with
+python -m django --version
+Go to the root directory and enter
+python manage.py runserver
+Then go to http://127.0.0.1:8000/ in web browser
